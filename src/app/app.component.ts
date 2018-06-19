@@ -88,7 +88,7 @@ export class AppComponent implements OnInit {
   //   position: Cesium.Cartesian3.fromRadians(1, 0.5)
   // });
 
-  entArr: AcEntity[] = [this.entity, this.entityB];
+  // entArr: AcEntity[] = [this.entity, this.entityB];
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {

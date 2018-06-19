@@ -1,0 +1,12 @@
+{
+  "list": [
+    {
+      "position":{
+      "alt": 0,
+      "lat": -18.7997,
+      "long": 47.4767,
+      "__typename": "Position"
+    }
+  }
+  ]
+}

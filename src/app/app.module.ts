@@ -4,6 +4,7 @@ import { AngularCesiumModule } from 'angular-cesium';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RectangleDrawerService } from 'angular-cesium/src/angular-cesium/services/drawers/rectangle-dawer/rectangle-drawer.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     AngularCesiumModule.forRoot(),
     HttpClientModule
   ],
-  providers: [],
+  providers: [RectangleDrawerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
